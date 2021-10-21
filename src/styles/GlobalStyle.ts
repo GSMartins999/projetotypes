@@ -18,12 +18,20 @@ export default createGlobalStyle`
         font-family: 'Roboto';
     }
 
+    body {
+    
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+
+    }
 `
 
     export const colors = {
 
         bgblue: 'rgb(28,33,82)',
-        white: 'E5E5E5',
-
+        white: '#FFFFFF',
+        darkcyan: '#008b8b',
+        black: '#000000 '
 
     }

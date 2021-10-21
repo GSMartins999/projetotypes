@@ -1,8 +1,9 @@
-import { Header} from "components";
+import { Header, Nav, Footer} from "components";
 
 
-const Home = () => {
-    return <Header />;
+    const Home = () => {
+        return (<><Header /> <Nav/> <Footer/> </>);
 };
+
 
 export default Home;
